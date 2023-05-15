@@ -101,8 +101,8 @@ function LoginForm() {
   <option value="1991">1995</option>
   
 </select>
-</span>
 
+</span>
 
 
 <div className="form-group">
