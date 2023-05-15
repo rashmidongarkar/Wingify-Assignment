@@ -65,16 +65,24 @@ function LoginForm() {
         
 
 
-
-<label for="dob">Date of Birth:</label>
+<span>
+<label for="dob">Date of Birth(optional)</label>
+</span>
 <br></br>
-<label>Day</label>
+<span class="firstRow">
+<label>Date</label>
 
+{/* <input name="day" id="test" 
+                     type="text" 
+                     placeholder="01" /> */}
 <select name="day" id="day">
+
 
   <option value="">01</option>
   
 </select>
+</span>
+<span class="secondRow">
 <label>Month</label>
 
 <select name="month" id="month">
@@ -82,7 +90,9 @@ function LoginForm() {
   <option value="1">March</option>
  
 </select>
+</span>
 
+<span class="thirdRow">
 <label>Year</label>
 
 <select name="year" id="year">
@@ -91,6 +101,7 @@ function LoginForm() {
   <option value="1991">1995</option>
   
 </select>
+</span>
 
 
 
@@ -115,7 +126,7 @@ function LoginForm() {
 
         <div>
         <label for="dob">Are you agency  or individual:</label>
-<br></br>
+
       <label>
         <input
           type="radio"
